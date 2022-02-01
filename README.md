@@ -2,5 +2,5 @@
 Lab &amp; Assignment WEB1013
 ## Author: Đỗ Hữu Nhật
 
-[a link] (/Lab1)
-[a link] (/Lab2)
+[a link] (Lab1)
+[a link] (Lab2)
