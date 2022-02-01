@@ -1,0 +1,79 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+picture {
+  margin: 0;
+}
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+  font-family: "Lato", sans-serif;
+}
+input,
+button,
+select,
+textarea {
+  font: inherit;
+}
+a {
+  text-decoration: none;
+}
+img,
+picture {
+  display: block;
+  max-width: 100%;
+}
+/* remove animation for people who've turned them off */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+nav.menu_top {
+  width: 100%;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+  font-size: 15px;
+  padding: 12px 24px;
+  position: fixed;
+  top: 0;
+}
+nav.menu_top > a {
+  padding: 8px 16px;
+  color: white;
+  text-transform: uppercase;
+}
+main {
+  margin-top: 46px;
+}
+#slider {
+  padding-top: 50%;
+  position: relative;
+  background: url("https://www.w3schools.com/w3images/chicago.jpg") top center /
+    cover no-repeat;
+}
+
+#slider > .content {
+  position: absolute;
+  bottom: 47px;
+  width: 100%;
+  text-align: center;
+  color: white;
+}

@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #e4e4e4;
+  border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  background-clip: content-box;
+  background-color: #b4b4b4;
+}
+.header {
+  display: block;
+}
+.banner > img {
+  width: 100%;
+  height: auto;
+}
+.logo {
+  margin-top: 15px;
+}
+.logo > img {
+  margin: 0 auto;
+  display: block;
+}
+
+.menu-main {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.menu-main > a {
+  margin: 0 15px;
+  color: black;
+  text-decoration: none;
+}
+
+.main-content {
+  width: 100%;
+  margin-top: 15px;
+}
+.discover-champion {
+  width: 100%;
+  height: 900px;
+
+  position: relative;
+}
+.discover-content {
+  float: left;
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+}
+.discover-content-title {
+  font-size: 48px;
+  font-weight: bold;
+}
+.discover-content > p {
+  margin-top: 20px;
+}
+.discover-img {
+  position: absolute;
+  right: 0;
+}
+
+.discover-content > button {
+  margin-top: 20px;
+  background-color: #0e4c67;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+}
+
+.favourite-champion {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.favourite-title {
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+}
+.favourite-content {
+  margin-top: 50px;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.favourite-content-items {
+  display: inline-block;
+  margin-left: 16px;
+}
+
+.footer {
+  margin-top: 50px;
+  height: 100px;
+  line-height: 100px;
+  background-color: #0E4C67;
+}
+.copyright {
+  float: left;
+  margin-left: 16px;
+  color: #ffffff;
+}
+.email {
+  float: right;
+  margin-right: 16px;
+}
+
+input[type=text] {
+  padding: 15px 25px;
+  color: white;
+  border: 2px solid #FFA800;
+  border-radius: 5px;
+  background-color: transparent;
+  margin-right: 15px;
+}
+::placeholder {
+  color: white;
+}
+input[type=button] {
+  padding: 16px 15px;
+  background-color: #FFA800;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.mobile_menu {
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .mobile_menu {
+    display: block;
+  }
+  .menu-main {
+    display: none;
+  }
+}
