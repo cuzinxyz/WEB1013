@@ -1,0 +1,235 @@
+@font-face {
+  font-family: "Beaufort for LOL Bold";
+  src: url("http://db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.eot"); /* IE9*/
+  src: url("http://db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("http://db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.woff2")
+      format("woff2"),
+    /* chrome firefox */
+      url("http://db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.woff")
+      format("woff"),
+    /* chrome firefox */
+      url("http://db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.ttf")
+      format("truetype"),
+    /* chrome firefox opera Safari, Android, iOS 4.2+*/
+      url("http://db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.svg#Beaufort for LOL Bold")
+      format("svg"); /* iOS 4.1- */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Beaufort for LOL Bold", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+.banner {
+  width: 100%;
+}
+
+.logo {
+  text-align: center;
+  margin-top: 32px;
+}
+
+.menu {
+  margin-top: 32px;
+}
+.menu ul {
+  text-align: center;
+}
+.menu ul li {
+  list-style: none;
+  display: inline;
+}
+.menu ul li a {
+  color: black;
+  margin: 0 32px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.highlight {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 60px;
+  grid-gap: 32px;
+  margin-bottom: 96px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.news > a > img {
+  float: left;
+  margin-right: 10px;
+}
+
+.news p {
+  color: #aeaeae;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: bold;
+}
+.title-news a {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 23px;
+  margin-top: 6px;
+}
+.news-des {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 14px;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 930px 490px;
+  margin: 0 16px;
+}
+
+.items {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 32px;
+  margin-bottom: 32px;
+}
+
+.news-main {
+  margin: auto 0;
+}
+.news-main > .category {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #0be7e7;
+  margin-bottom: 8px;
+}
+.news-main > .title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  margin-bottom: 16px;
+}
+
+.news-main > .des {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 32px;
+}
+.news-main > .author {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #aeaeae;
+}
+
+.news-img-right {
+  margin-left: 32px;
+}
+.news-img-right > a > img {
+  margin-bottom: 32px;
+}
+.line-end {
+  height: 1px;
+  background: #b5b5b5;
+  margin-top: 64px;
+}
+
+.view {
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin-top: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.view img {
+  margin-left: 18px;
+}
+.footer {
+  margin-top: 50px;
+  height: 100px;
+  line-height: 100px;
+  background-color: #0e4c67;
+}
+.copyright {
+  float: left;
+  margin-left: 16px;
+  color: #ffffff;
+}
+.email {
+  float: right;
+  margin-right: 16px;
+}
+
+input[type="text"] {
+  padding: 15px 25px;
+  color: white;
+  border: 2px solid #ffa800;
+  border-radius: 5px;
+  background-color: transparent;
+  margin-right: 15px;
+}
+::placeholder {
+  color: white;
+}
+input[type="submit"] {
+  padding: 16px 15px;
+  background-color: #ffa800;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.checkout {
+  margin: 64px 16px;
+  height: 64px;
+  background-color: #000;
+  color: #fff;
+  line-height: 64px;
+  text-align: center;
+  text-transform: uppercase;
+}

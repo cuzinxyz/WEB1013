@@ -1,0 +1,163 @@
+@font-face {
+  font-family: "Beaufort for LOL Bold";
+  src: url("http://db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.eot"); /* IE9*/
+  src: url("http://db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("http://db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.woff2")
+      format("woff2"),
+    /* chrome firefox */
+      url("http://db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.woff")
+      format("woff"),
+    /* chrome firefox */
+      url("http://db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.ttf")
+      format("truetype"),
+    /* chrome firefox opera Safari, Android, iOS 4.2+*/
+      url("http://db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.svg#Beaufort for LOL Bold")
+      format("svg"); /* iOS 4.1- */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Beaufort for LOL Bold", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  font-size: 16px;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  /* outline: none;
+border: none; */
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.main-content {
+  margin: auto auto;
+}
+.main-content > p {
+  font-weight: bold;
+}
+.email > p {
+  color: #4a5568;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.password > p {
+  color: #4a5568;
+  font-weight: bold;
+  margin-top: 10px;
+}
+input[type="email"],
+input[type="password"] {
+  margin-top: 10px;
+  height: 50px;
+  width: 350px;
+  border: 1px solid #37a9cd;
+  border-radius: 5px;
+  padding-left: 20px;
+}
+::placeholder {
+  color: #c4c4c4;
+}
+input[type="radio"] {
+  height: 15px;
+  width: 15px;
+  background: #f7fafc;
+  border: 1px solid #e8e8e8;
+}
+.remember-forgot {
+  margin: 25px 0;
+}
+input[type="radio"] + a {
+  font-weight: bold;
+}
+.forgot {
+  float: right;
+  font-weight: bold;
+  color: #37a9cd;
+  text-decoration: none;
+}
+
+.login > input[type="submit"] {
+  height: 50px;
+  width: 350px;
+  background: #37a9cd;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+.login-gg > button {
+  height: 50px;
+  width: 350px;
+  background: #2d3748;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.register {
+  margin-top: 30px;
+  font-weight: bold;
+  color: #616161;
+  text-align: center;
+}
+.register > a {
+  font-weight: bold;
+  font-size: 14px;
+  color: #37a9cd;
+  text-decoration: none;
+}
+.login {
+  margin-bottom: 15px;
+}
+
+button > span {
+  margin-left: 5px;
+}
